@@ -26,16 +26,19 @@
   background-color: rgb(215, 250, 241);
 }
   
- 
-  img{
-      height: 605px;
-      width: 657px;
+ .img-fluid{
+    height: 605px;
+    width: 600px;
       border-radius: 25px;
+      
   }
  
-
+  footer {
+    padding-top: 3rem;
+    text-align: center;
+  }
   @media screen and (max-width: 1028px){
-    body {
+    .img-fluid {
       position: static;
       transform: rotate(0);
     }
